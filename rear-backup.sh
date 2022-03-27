@@ -13,7 +13,7 @@
 ############################################################################################################
 #------------------------------------------------------------------------------------------------------------
 
- Version=0.1.3
+ Version=0.1.4
  ScriptName=$(basename $0)
 
 # TODO userinput / configfile
@@ -27,7 +27,7 @@
  RearRecoverTimeout=30
 
  RearOutputMode=ISO
- RequiredPackets="bash perl rear syslinux syslinux-utils pigz locate"
+ RequiredPackets="bash sshfs openssh-client perl rear syslinux syslinux-utils pigz locate"
  RearOutputImageName="$(hostname)_$(date +%F-%H%M%S)_${BackupFileSuffix}"
  SSHFSMountpoint="/mnt/${SSHFSUser}@$(echo ${SSHFSHost} | tr -d "/")_ReaR"
  RearOutputDir="${SSHFSMountpoint}/${BackupTargetDirRemoteHost}"
