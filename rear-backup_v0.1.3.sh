@@ -1,6 +1,6 @@
 #!/bin/bash
 # name          : rear-backup
-# desciption    : create temporary connects and paths for rear backup
+# desciption    : create temporary paths and output formats for rear backup
 # autor         : speefak ( itoss@gmx.de )
 # licence       : (CC) BY-NC-SA
 # version       : 0.1.3
