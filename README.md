@@ -3,14 +3,14 @@ I missed in the ReaR ( Relax and Recover ) programm/script suite some very usefu
 
 This script adds the features listet above to ReaR.
 
-Usage: $(basename $0) <options> "
+Usage: $(basename $0) <options>
 
--h		=> help dialog \n"
--cib		=> create ISO Backup\n"
--cUSB		=> create bootable USB drive\n"
--eISO		=> external ISO file for -cUSB option (-eISO <file.iso|iso>)\n"
--sshcc		=> SSH connection check\n"
--cfrp		=> check for required packages\n"
--m		=> monochrome output\n"
+-h		=> help dialog
+-cib		=> create ISO Backup
+-cUSB		=> create bootable USB drive
+-eISO		=> external ISO file for -cUSB option (-eISO <file.iso|iso>)
+-sshcc		=> SSH connection check
+-cfrp		=> check for required packages
+-m		=> monochrome output
 
 
