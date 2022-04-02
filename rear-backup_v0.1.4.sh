@@ -588,14 +588,6 @@ write_ISO_to_USB () {
 
 exit 0
 
-
-#TODO export tmporary tar archiv
-#backup.tar.gz
-#root@speenux:/tmp/rear.kdR0eQobzObpXSK/tmp/isofs/backup/backup.tar.gz
-
-
-
-
 #TODO	https://github.com/jsamr/bootiso	
 # use bootiso insted of "detect_and_select_usb_drives" "create_USB_drive_from_ISO"
 # request for using non main repo software
