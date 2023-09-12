@@ -8,8 +8,7 @@ Usage: $(basename $0) <options>
 -h		=> help dialog  
 -cib		=> create ISO Backup  
 -cUSB		=> create bootable USB drive  
--eISO		=> external ISO file for  
--cUSB option (-eISO <file.iso|iso>)  
+-eISO		=> external ISO file for -cUSB option (-eISO <file.iso|iso>)  
 -sshcc		=> SSH connection check  
 -cfrp		=> check for required packages  
 -m		=> monochrome output
